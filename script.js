@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:3000";
+const API_URL =
+  "https://api.qoddi.com/push/?key=8u739fiwo4ngxhd2erqc1stzblyj5vpka6m";
 
 async function fetchTodos() {
   const response = await fetch(`${API_URL}/todos`);
